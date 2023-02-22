@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoStudentManager", "DynamoStudentManager.csproj", "{F3F9779C-07E4-4895-9240-691637281805}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3F9779C-07E4-4895-9240-691637281805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F9779C-07E4-4895-9240-691637281805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F9779C-07E4-4895-9240-691637281805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F9779C-07E4-4895-9240-691637281805}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01B8B148-AF32-4055-9D96-61996B3DDB21}
+	EndGlobalSection
+EndGlobal
