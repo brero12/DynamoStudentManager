@@ -1,3 +1,8 @@
+/*
+ * Programmer: Rodriguez Penagos, Bryan
+ * Date: Winter 2023
+ * Purpose: This program response API requests.
+ */
 using Amazon.DynamoDBv2;
 using Amazon.DynamoDBv2.DataModel;
 
@@ -12,7 +17,6 @@ namespace DynamoStudentManager
             // Add services to the container.
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             var awsOptions = builder.Configuration.GetAWSOptions();
@@ -32,7 +36,6 @@ namespace DynamoStudentManager
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 
